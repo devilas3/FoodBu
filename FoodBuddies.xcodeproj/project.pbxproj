@@ -19,6 +19,8 @@
 		44FA0A901F010B9E0071B324 /* ParseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FA0A8E1F010B9E0071B324 /* ParseManager.swift */; };
 		44FA0A921F010BC90071B324 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FA0A911F010BC90071B324 /* Products.swift */; };
 		44FA0A941F010BDA0071B324 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FA0A931F010BDA0071B324 /* RequestManager.swift */; };
+		44FA0A9A1F0121EF0071B324 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FA0A991F0121EF0071B324 /* AboutUsViewController.swift */; };
+		44FA0A9D1F0122B10071B324 /* webpage.html in Resources */ = {isa = PBXBuildFile; fileRef = 44FA0A9C1F0122B10071B324 /* webpage.html */; };
 		C1115BE349688EDCE9968801 /* Pods_FoodBuddies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB332B24B6F4E2D3428B2A41 /* Pods_FoodBuddies.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,8 @@
 		44FA0A8E1F010B9E0071B324 /* ParseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseManager.swift; sourceTree = "<group>"; };
 		44FA0A911F010BC90071B324 /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 		44FA0A931F010BDA0071B324 /* RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		44FA0A991F0121EF0071B324 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		44FA0A9C1F0122B10071B324 /* webpage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = webpage.html; sourceTree = "<group>"; };
 		A2A462063A7183194C73D2E1 /* Pods-FoodBuddies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodBuddies.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodBuddies/Pods-FoodBuddies.release.xcconfig"; sourceTree = "<group>"; };
 		CB332B24B6F4E2D3428B2A41 /* Pods_FoodBuddies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodBuddies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -89,6 +93,8 @@
 				44A3B4521F00ECB600EA22B8 /* Business Layer */,
 				44A3B4531F00ECB600EA22B8 /* Entity */,
 				44A3B4541F00ECB600EA22B8 /* Network Layer */,
+				44FA0A9B1F0122A90071B324 /* TempData */,
+				44FA0A9C1F0122B10071B324 /* webpage.html */,
 				44A3B4411F00EA5E00EA22B8 /* ViewController.swift */,
 				44A3B4431F00EA5E00EA22B8 /* Main.storyboard */,
 				44A3B4461F00EA5E00EA22B8 /* Assets.xcassets */,
@@ -101,6 +107,7 @@
 		44A3B4511F00ECB600EA22B8 /* Application Layer */ = {
 			isa = PBXGroup;
 			children = (
+				44FA0A951F0120B20071B324 /* Controllers */,
 				44A3B45B1F00ED4600EA22B8 /* BaseVC */,
 				44A3B4551F00ED1300EA22B8 /* Resources */,
 				44A3B4561F00ED1300EA22B8 /* Utility */,
@@ -171,6 +178,45 @@
 				44FA0A8E1F010B9E0071B324 /* ParseManager.swift */,
 			);
 			path = "Parse Manager";
+			sourceTree = "<group>";
+		};
+		44FA0A951F0120B20071B324 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				44FA0A961F0120E10071B324 /* AboutUSVC */,
+				44FA0A971F0120E10071B324 /* PrivacyVC */,
+				44FA0A981F0120E10071B324 /* TermsVC */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		44FA0A961F0120E10071B324 /* AboutUSVC */ = {
+			isa = PBXGroup;
+			children = (
+				44FA0A991F0121EF0071B324 /* AboutUsViewController.swift */,
+			);
+			path = AboutUSVC;
+			sourceTree = "<group>";
+		};
+		44FA0A971F0120E10071B324 /* PrivacyVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PrivacyVC;
+			sourceTree = "<group>";
+		};
+		44FA0A981F0120E10071B324 /* TermsVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TermsVC;
+			sourceTree = "<group>";
+		};
+		44FA0A9B1F0122A90071B324 /* TempData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TempData;
 			sourceTree = "<group>";
 		};
 		CDB3450964A04E034A6E7207 /* Frameworks */ = {
@@ -245,6 +291,7 @@
 			files = (
 				44A3B44A1F00EA5E00EA22B8 /* LaunchScreen.storyboard in Resources */,
 				44A3B4471F00EA5E00EA22B8 /* Assets.xcassets in Resources */,
+				44FA0A9D1F0122B10071B324 /* webpage.html in Resources */,
 				44A3B4451F00EA5E00EA22B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44FA0A9A1F0121EF0071B324 /* AboutUsViewController.swift in Sources */,
 				44FA0A901F010B9E0071B324 /* ParseManager.swift in Sources */,
 				44A3B4421F00EA5E00EA22B8 /* ViewController.swift in Sources */,
 				44FA0A8F1F010B9E0071B324 /* DataManager.swift in Sources */,

@@ -13,7 +13,7 @@ pod 'EZLoadingActivity'
 pod 'SDWebImage'
 pod 'DZNEmptyDataSet'
 
-
+pod 'Material', '~> 2.0'
   # Pods for FoodBuddies
 
 end

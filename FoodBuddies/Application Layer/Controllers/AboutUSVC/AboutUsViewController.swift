@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AboutUsViewController: BaseVC {
+class AboutUsViewController: BaseVC,UIWebViewDelegate {
 
 //TODO: - General
     
@@ -51,6 +51,20 @@ class AboutUsViewController: BaseVC {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    
+//TODO: - Function
+    
+    
+    
+//TODO: - UIWebViewDelegate Method Implementation
+    public func webViewDidStartLoad(_ webView: UIWebView){
+        UIApplication.shared.isNetworkActivityIndicatorVisible = true
+    }
+    
+    public func webViewDidFinishLoad(_ webView: UIWebView){
+       UIApplication.shared.isNetworkActivityIndicatorVisible = false
+    }
 
     
 //TODO: - UIButton Action

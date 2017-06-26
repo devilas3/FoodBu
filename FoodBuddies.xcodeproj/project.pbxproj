@@ -21,6 +21,7 @@
 		44FA0A941F010BDA0071B324 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FA0A931F010BDA0071B324 /* RequestManager.swift */; };
 		44FA0A9A1F0121EF0071B324 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FA0A991F0121EF0071B324 /* AboutUsViewController.swift */; };
 		44FA0A9D1F0122B10071B324 /* webpage.html in Resources */ = {isa = PBXBuildFile; fileRef = 44FA0A9C1F0122B10071B324 /* webpage.html */; };
+		44FA0AA01F0140F30071B324 /* ContactUSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FA0A9F1F0140F30071B324 /* ContactUSViewController.swift */; };
 		C1115BE349688EDCE9968801 /* Pods_FoodBuddies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB332B24B6F4E2D3428B2A41 /* Pods_FoodBuddies.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		44FA0A931F010BDA0071B324 /* RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
 		44FA0A991F0121EF0071B324 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 		44FA0A9C1F0122B10071B324 /* webpage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = webpage.html; sourceTree = "<group>"; };
+		44FA0A9F1F0140F30071B324 /* ContactUSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUSViewController.swift; sourceTree = "<group>"; };
 		A2A462063A7183194C73D2E1 /* Pods-FoodBuddies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodBuddies.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodBuddies/Pods-FoodBuddies.release.xcconfig"; sourceTree = "<group>"; };
 		CB332B24B6F4E2D3428B2A41 /* Pods_FoodBuddies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodBuddies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -183,6 +185,7 @@
 		44FA0A951F0120B20071B324 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				44FA0A9E1F0140DD0071B324 /* ContactUsVC */,
 				44FA0A961F0120E10071B324 /* AboutUSVC */,
 				44FA0A971F0120E10071B324 /* PrivacyVC */,
 				44FA0A981F0120E10071B324 /* TermsVC */,
@@ -217,6 +220,14 @@
 			children = (
 			);
 			path = TempData;
+			sourceTree = "<group>";
+		};
+		44FA0A9E1F0140DD0071B324 /* ContactUsVC */ = {
+			isa = PBXGroup;
+			children = (
+				44FA0A9F1F0140F30071B324 /* ContactUSViewController.swift */,
+			);
+			path = ContactUsVC;
 			sourceTree = "<group>";
 		};
 		CDB3450964A04E034A6E7207 /* Frameworks */ = {
@@ -357,6 +368,7 @@
 				44FA0A8F1F010B9E0071B324 /* DataManager.swift in Sources */,
 				44A3B4591F00ED2700EA22B8 /* APIList.swift in Sources */,
 				44A3B45A1F00ED2700EA22B8 /* Strings.swift in Sources */,
+				44FA0AA01F0140F30071B324 /* ContactUSViewController.swift in Sources */,
 				44FA0A921F010BC90071B324 /* Products.swift in Sources */,
 				44FA0A941F010BDA0071B324 /* RequestManager.swift in Sources */,
 				44A3B4401F00EA5E00EA22B8 /* AppDelegate.swift in Sources */,

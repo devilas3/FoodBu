@@ -19,6 +19,12 @@
 		44A3B4591F00ED2700EA22B8 /* APIList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A3B4571F00ED2700EA22B8 /* APIList.swift */; };
 		44A3B45A1F00ED2700EA22B8 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A3B4581F00ED2700EA22B8 /* Strings.swift */; };
 		44A3B45D1F00ED5D00EA22B8 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A3B45C1F00ED5D00EA22B8 /* BaseVC.swift */; };
+		44F180141F03B7C100B474F9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F180131F03B7C100B474F9 /* SWRevealViewController.m */; };
+		44F180181F03BBE100B474F9 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F180171F03BBE100B474F9 /* MenuTableViewCell.swift */; };
+		44F1801A1F03BBEE00B474F9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F180191F03BBEE00B474F9 /* MenuViewController.swift */; };
+		44F1801F1F03BF6F00B474F9 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F1801E1F03BF6F00B474F9 /* EventsViewController.swift */; };
+		44F180211F03BF8100B474F9 /* InviteFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F180201F03BF8100B474F9 /* InviteFriendsViewController.swift */; };
+		44F180231F03BF8C00B474F9 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F180221F03BF8C00B474F9 /* MyProfileViewController.swift */; };
 		44FA0A8F1F010B9E0071B324 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FA0A8C1F010B9E0071B324 /* DataManager.swift */; };
 		44FA0A901F010B9E0071B324 /* ParseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FA0A8E1F010B9E0071B324 /* ParseManager.swift */; };
 		44FA0A921F010BC90071B324 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FA0A911F010BC90071B324 /* Products.swift */; };
@@ -45,6 +51,14 @@
 		44A3B4571F00ED2700EA22B8 /* APIList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIList.swift; sourceTree = "<group>"; };
 		44A3B4581F00ED2700EA22B8 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		44A3B45C1F00ED5D00EA22B8 /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		44F180121F03B7C100B474F9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		44F180131F03B7C100B474F9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		44F180151F03B7D700B474F9 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		44F180171F03BBE100B474F9 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		44F180191F03BBEE00B474F9 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		44F1801E1F03BF6F00B474F9 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		44F180201F03BF8100B474F9 /* InviteFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteFriendsViewController.swift; sourceTree = "<group>"; };
+		44F180221F03BF8C00B474F9 /* MyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
 		44FA0A8C1F010B9E0071B324 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		44FA0A8E1F010B9E0071B324 /* ParseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseManager.swift; sourceTree = "<group>"; };
 		44FA0A911F010BC90071B324 /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
@@ -124,6 +138,7 @@
 				44FA0A9B1F0122A90071B324 /* TempData */,
 				44FA0A9C1F0122B10071B324 /* webpage.html */,
 				44A3B4411F00EA5E00EA22B8 /* ViewController.swift */,
+				44F180151F03B7D700B474F9 /* Bridging-Header.h */,
 				44A3B4431F00EA5E00EA22B8 /* Main.storyboard */,
 				44A3B4461F00EA5E00EA22B8 /* Assets.xcassets */,
 				44A3B4481F00EA5E00EA22B8 /* LaunchScreen.storyboard */,
@@ -135,6 +150,7 @@
 		44A3B4511F00ECB600EA22B8 /* Application Layer */ = {
 			isa = PBXGroup;
 			children = (
+				44F180161F03BBD300B474F9 /* MenuVC */,
 				44FA0A951F0120B20071B324 /* Controllers */,
 				44A3B45B1F00ED4600EA22B8 /* BaseVC */,
 				44A3B4551F00ED1300EA22B8 /* Resources */,
@@ -171,6 +187,7 @@
 		44A3B4551F00ED1300EA22B8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				44F180111F03B7C100B474F9 /* SWRevealViewController */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -192,6 +209,49 @@
 			path = BaseVC;
 			sourceTree = "<group>";
 		};
+		44F180111F03B7C100B474F9 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				44F180121F03B7C100B474F9 /* SWRevealViewController.h */,
+				44F180131F03B7C100B474F9 /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		44F180161F03BBD300B474F9 /* MenuVC */ = {
+			isa = PBXGroup;
+			children = (
+				44F180171F03BBE100B474F9 /* MenuTableViewCell.swift */,
+				44F180191F03BBEE00B474F9 /* MenuViewController.swift */,
+			);
+			name = MenuVC;
+			path = Controllers/MenuVC;
+			sourceTree = "<group>";
+		};
+		44F1801B1F03BF6300B474F9 /* EventsVC */ = {
+			isa = PBXGroup;
+			children = (
+				44F1801E1F03BF6F00B474F9 /* EventsViewController.swift */,
+			);
+			path = EventsVC;
+			sourceTree = "<group>";
+		};
+		44F1801C1F03BF6300B474F9 /* InviteFriendsVC */ = {
+			isa = PBXGroup;
+			children = (
+				44F180201F03BF8100B474F9 /* InviteFriendsViewController.swift */,
+			);
+			path = InviteFriendsVC;
+			sourceTree = "<group>";
+		};
+		44F1801D1F03BF6300B474F9 /* MyProfileVC */ = {
+			isa = PBXGroup;
+			children = (
+				44F180221F03BF8C00B474F9 /* MyProfileViewController.swift */,
+			);
+			path = MyProfileVC;
+			sourceTree = "<group>";
+		};
 		44FA0A8B1F010B9E0071B324 /* Business Logic */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +271,9 @@
 		44FA0A951F0120B20071B324 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				44F1801B1F03BF6300B474F9 /* EventsVC */,
+				44F1801C1F03BF6300B474F9 /* InviteFriendsVC */,
+				44F1801D1F03BF6300B474F9 /* MyProfileVC */,
 				440884401F0388520097151E /* NotificationVC */,
 				4408843B1F037E990097151E /* SignupVC */,
 				44FA0A9E1F0140DD0071B324 /* ContactUsVC */,
@@ -391,16 +454,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				44FA0A9A1F0121EF0071B324 /* AboutUsViewController.swift in Sources */,
+				44F1801F1F03BF6F00B474F9 /* EventsViewController.swift in Sources */,
 				44FA0A901F010B9E0071B324 /* ParseManager.swift in Sources */,
 				4408843F1F037EDC0097151E /* SignupSecondViewController.swift in Sources */,
 				44A3B4421F00EA5E00EA22B8 /* ViewController.swift in Sources */,
 				44FA0A8F1F010B9E0071B324 /* DataManager.swift in Sources */,
+				44F180181F03BBE100B474F9 /* MenuTableViewCell.swift in Sources */,
 				440884421F03885F0097151E /* NotificationListViewController.swift in Sources */,
 				440884441F0388AD0097151E /* NotificationTableViewCell.swift in Sources */,
+				44F180231F03BF8C00B474F9 /* MyProfileViewController.swift in Sources */,
 				44A3B4591F00ED2700EA22B8 /* APIList.swift in Sources */,
 				44A3B45A1F00ED2700EA22B8 /* Strings.swift in Sources */,
+				44F180211F03BF8100B474F9 /* InviteFriendsViewController.swift in Sources */,
 				44FA0AA01F0140F30071B324 /* ContactUSViewController.swift in Sources */,
 				4408843D1F037EAE0097151E /* SignupFirstViewController.swift in Sources */,
+				44F180141F03B7C100B474F9 /* SWRevealViewController.m in Sources */,
+				44F1801A1F03BBEE00B474F9 /* MenuViewController.swift in Sources */,
 				44FA0A921F010BC90071B324 /* Products.swift in Sources */,
 				44FA0A941F010BDA0071B324 /* RequestManager.swift in Sources */,
 				44A3B4401F00EA5E00EA22B8 /* AppDelegate.swift in Sources */,
@@ -531,6 +600,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.FoodBuddies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/swapnil/Desktop/My Computer/Temporary/FoodBuddies/FoodBuddies/Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -545,6 +615,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.FoodBuddies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/swapnil/Desktop/My Computer/Temporary/FoodBuddies/FoodBuddies/Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

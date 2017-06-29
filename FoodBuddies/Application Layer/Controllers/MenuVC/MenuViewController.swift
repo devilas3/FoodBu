@@ -26,6 +26,10 @@ class MenuViewController: UIViewController, UITableViewDataSource,UITableViewDel
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.tblMain.delegate = self
+        self.tblMain.dataSource = self
+        
+        self.tblMain.tableFooterView = UIView()
     }
 
     override func didReceiveMemoryWarning() {
@@ -39,7 +43,7 @@ class MenuViewController: UIViewController, UITableViewDataSource,UITableViewDel
 //TODO: - UITableViewDatasource Method implementation
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
-        return 8
+        return 3
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
@@ -50,7 +54,35 @@ class MenuViewController: UIViewController, UITableViewDataSource,UITableViewDel
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath.row)
-        
+        let index = indexPath.row
+        switch index {
+        case 0:
+            
+            let profVC = self.storyboard?.instantiateViewController(withIdentifier: "idMyProfileViewController") as! MyProfileViewController
+            let frontView = UINavigationController.init(rootViewController:profVC)
+            revealViewController().pushFrontViewController(frontView, animated: true)
+            
+            break;
+            //
+        case 1:
+            
+            let eventVC = self.storyboard?.instantiateViewController(withIdentifier: "idEventsViewController") as! EventsViewController
+            let frontView = UINavigationController.init(rootViewController:eventVC)
+            revealViewController().pushFrontViewController(frontView, animated: true)
+            
+            break;
+            
+            //
+        case 2:
+            
+            let inviteVC = self.storyboard?.instantiateViewController(withIdentifier: "idInviteFriendsViewController") as! InviteFriendsViewController
+            let frontView = UINavigationController.init(rootViewController:inviteVC)
+            revealViewController().pushFrontViewController(frontView, animated: true)
+            break;
+        default:
+            print("default")
+            break;
+        }
         
     }
     

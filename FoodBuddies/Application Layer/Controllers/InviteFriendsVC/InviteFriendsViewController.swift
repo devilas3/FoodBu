@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Material
 
 class InviteFriendsViewController: UIViewController {
 
@@ -18,6 +19,11 @@ class InviteFriendsViewController: UIViewController {
     
     @IBOutlet weak var btnMenuOutlet: UIButton!
     
+    @IBOutlet weak var btnInviteTextOutlet: Button!
+    
+    @IBOutlet weak var btnInviteWhatsAppOutlet: Button!
+    
+    @IBOutlet weak var btnInviteFacebookOutlet: Button!
     
 //TODO: - Let's Code
     
@@ -28,6 +34,7 @@ class InviteFriendsViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
+        self.navigationController?.isNavigationBarHidden = true
         
         //Revealviewcontroller code
         if self.revealViewController() != nil {
@@ -44,6 +51,16 @@ class InviteFriendsViewController: UIViewController {
    
     
 //TODO: - UIButton Action
+    
+    @IBAction func btnInviteTextClick(_ sender: Any) {
+    }
+    
+    @IBAction func btnInviteWhatsappClick(_ sender: Any) {
+    }
+    
+    @IBAction func btnInviteFBClick(_ sender: Any) {
+    }
+    
     
 
 

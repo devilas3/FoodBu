@@ -112,6 +112,7 @@ class MenuViewController: UIViewController, UITableViewDataSource,UITableViewDel
         case 7:
             //About Us
             let aboutVC = self.storyboard?.instantiateViewController(withIdentifier: "idAboutUsViewController") as! AboutUsViewController
+            FoodBuddiesSingleton.shared.htmlValue = 1
             let frontView = UINavigationController.init(rootViewController:aboutVC)
             revealViewController().pushFrontViewController(frontView, animated: true)
             break;
@@ -124,12 +125,14 @@ class MenuViewController: UIViewController, UITableViewDataSource,UITableViewDel
         case 9:
             //Terms & Condition
             let aboutVC = self.storyboard?.instantiateViewController(withIdentifier: "idAboutUsViewController") as! AboutUsViewController
+            FoodBuddiesSingleton.shared.htmlValue = 2
             let frontView = UINavigationController.init(rootViewController:aboutVC)
             revealViewController().pushFrontViewController(frontView, animated: true)
             break;
         case 10:
             //Privacy Policy
             let aboutVC = self.storyboard?.instantiateViewController(withIdentifier: "idAboutUsViewController") as! AboutUsViewController
+            FoodBuddiesSingleton.shared.htmlValue = 3
             let frontView = UINavigationController.init(rootViewController:aboutVC)
             revealViewController().pushFrontViewController(frontView, animated: true)
             break;

@@ -12,6 +12,10 @@
 		440884421F03885F0097151E /* NotificationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440884411F03885F0097151E /* NotificationListViewController.swift */; };
 		440884441F0388AD0097151E /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440884431F0388AC0097151E /* NotificationTableViewCell.swift */; };
 		441BE8B21F0CBF7600CD3AA7 /* FoodBuddiesSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441BE8B11F0CBF7600CD3AA7 /* FoodBuddiesSingleton.swift */; };
+		441BE8B41F0CE7D500CD3AA7 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 441BE8B31F0CE7D500CD3AA7 /* 1.jpg */; };
+		441BE8B61F0CE90200CD3AA7 /* EventImageScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441BE8B51F0CE90200CD3AA7 /* EventImageScrollViewController.swift */; };
+		441BE8B91F0CF17E00CD3AA7 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 441BE8B71F0CF17E00CD3AA7 /* 3.jpg */; };
+		441BE8BA1F0CF17E00CD3AA7 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 441BE8B81F0CF17E00CD3AA7 /* 2.jpg */; };
 		4485EFD51F05362100B89587 /* PaymentContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485EFD41F05362100B89587 /* PaymentContainerViewController.swift */; };
 		4485EFD71F05364E00B89587 /* PaymentHostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485EFD61F05364E00B89587 /* PaymentHostViewController.swift */; };
 		4485EFD91F05367500B89587 /* PaymentGuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485EFD81F05367500B89587 /* PaymentGuestViewController.swift */; };
@@ -48,6 +52,10 @@
 		440884411F03885F0097151E /* NotificationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationListViewController.swift; sourceTree = "<group>"; };
 		440884431F0388AC0097151E /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
 		441BE8B11F0CBF7600CD3AA7 /* FoodBuddiesSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodBuddiesSingleton.swift; sourceTree = "<group>"; };
+		441BE8B31F0CE7D500CD3AA7 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		441BE8B51F0CE90200CD3AA7 /* EventImageScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventImageScrollViewController.swift; sourceTree = "<group>"; };
+		441BE8B71F0CF17E00CD3AA7 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		441BE8B81F0CF17E00CD3AA7 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		4485EFD41F05362100B89587 /* PaymentContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentContainerViewController.swift; sourceTree = "<group>"; };
 		4485EFD61F05364E00B89587 /* PaymentHostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentHostViewController.swift; sourceTree = "<group>"; };
 		4485EFD81F05367500B89587 /* PaymentGuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentGuestViewController.swift; sourceTree = "<group>"; };
@@ -257,6 +265,7 @@
 			isa = PBXGroup;
 			children = (
 				44F1801E1F03BF6F00B474F9 /* EventsViewController.swift */,
+				441BE8B51F0CE90200CD3AA7 /* EventImageScrollViewController.swift */,
 			);
 			path = EventsVC;
 			sourceTree = "<group>";
@@ -335,6 +344,9 @@
 		44FA0A9B1F0122A90071B324 /* TempData */ = {
 			isa = PBXGroup;
 			children = (
+				441BE8B71F0CF17E00CD3AA7 /* 3.jpg */,
+				441BE8B81F0CF17E00CD3AA7 /* 2.jpg */,
+				441BE8B31F0CE7D500CD3AA7 /* 1.jpg */,
 			);
 			path = TempData;
 			sourceTree = "<group>";
@@ -419,8 +431,11 @@
 			files = (
 				44A3B44A1F00EA5E00EA22B8 /* LaunchScreen.storyboard in Resources */,
 				44A3B4471F00EA5E00EA22B8 /* Assets.xcassets in Resources */,
+				441BE8BA1F0CF17E00CD3AA7 /* 2.jpg in Resources */,
 				44FA0A9D1F0122B10071B324 /* webpage.html in Resources */,
+				441BE8B91F0CF17E00CD3AA7 /* 3.jpg in Resources */,
 				44A3B4451F00EA5E00EA22B8 /* Main.storyboard in Resources */,
+				441BE8B41F0CE7D500CD3AA7 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +512,7 @@
 				4485EFD51F05362100B89587 /* PaymentContainerViewController.swift in Sources */,
 				44FA0AA01F0140F30071B324 /* ContactUSViewController.swift in Sources */,
 				4408843D1F037EAE0097151E /* SignupFirstViewController.swift in Sources */,
+				441BE8B61F0CE90200CD3AA7 /* EventImageScrollViewController.swift in Sources */,
 				4485EFDD1F0536FD00B89587 /* PaymentGuestTableViewCell.swift in Sources */,
 				44F180141F03B7C100B474F9 /* SWRevealViewController.m in Sources */,
 				4485EFD71F05364E00B89587 /* PaymentHostViewController.swift in Sources */,

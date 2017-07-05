@@ -53,6 +53,22 @@ class AboutUsViewController: BaseVC,UIWebViewDelegate {
     
     
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        
+        var screenName : String = String()
+        if FoodBuddiesSingleton.shared.htmlValue == 1{
+            screenName = "About Us"
+        }else if FoodBuddiesSingleton.shared.htmlValue == 2{
+            screenName = "Terms & Conditions"
+        }else if FoodBuddiesSingleton.shared.htmlValue == 3{
+            screenName = "Privacy Policy"
+        }
+        
+        showAlert("", message: screenName)
+    }
+    
+    
 //TODO: - Function
     
     

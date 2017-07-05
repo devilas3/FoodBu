@@ -11,6 +11,7 @@
 		4408843F1F037EDC0097151E /* SignupSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4408843E1F037EDC0097151E /* SignupSecondViewController.swift */; };
 		440884421F03885F0097151E /* NotificationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440884411F03885F0097151E /* NotificationListViewController.swift */; };
 		440884441F0388AD0097151E /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440884431F0388AC0097151E /* NotificationTableViewCell.swift */; };
+		441BE8B21F0CBF7600CD3AA7 /* FoodBuddiesSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441BE8B11F0CBF7600CD3AA7 /* FoodBuddiesSingleton.swift */; };
 		4485EFD51F05362100B89587 /* PaymentContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485EFD41F05362100B89587 /* PaymentContainerViewController.swift */; };
 		4485EFD71F05364E00B89587 /* PaymentHostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485EFD61F05364E00B89587 /* PaymentHostViewController.swift */; };
 		4485EFD91F05367500B89587 /* PaymentGuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485EFD81F05367500B89587 /* PaymentGuestViewController.swift */; };
@@ -46,6 +47,7 @@
 		4408843E1F037EDC0097151E /* SignupSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupSecondViewController.swift; sourceTree = "<group>"; };
 		440884411F03885F0097151E /* NotificationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationListViewController.swift; sourceTree = "<group>"; };
 		440884431F0388AC0097151E /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		441BE8B11F0CBF7600CD3AA7 /* FoodBuddiesSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodBuddiesSingleton.swift; sourceTree = "<group>"; };
 		4485EFD41F05362100B89587 /* PaymentContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentContainerViewController.swift; sourceTree = "<group>"; };
 		4485EFD61F05364E00B89587 /* PaymentHostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentHostViewController.swift; sourceTree = "<group>"; };
 		4485EFD81F05367500B89587 /* PaymentGuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentGuestViewController.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				44A3B43F1F00EA5E00EA22B8 /* AppDelegate.swift */,
+				441BE8B11F0CBF7600CD3AA7 /* FoodBuddiesSingleton.swift */,
 				44A3B4511F00ECB600EA22B8 /* Application Layer */,
 				44A3B4521F00ECB600EA22B8 /* Business Layer */,
 				44A3B4531F00ECB600EA22B8 /* Entity */,
@@ -487,6 +490,7 @@
 				4485EFD91F05367500B89587 /* PaymentGuestViewController.swift in Sources */,
 				440884441F0388AD0097151E /* NotificationTableViewCell.swift in Sources */,
 				44F180231F03BF8C00B474F9 /* MyProfileViewController.swift in Sources */,
+				441BE8B21F0CBF7600CD3AA7 /* FoodBuddiesSingleton.swift in Sources */,
 				44A3B4591F00ED2700EA22B8 /* APIList.swift in Sources */,
 				44A3B45A1F00ED2700EA22B8 /* Strings.swift in Sources */,
 				44F180211F03BF8100B474F9 /* InviteFriendsViewController.swift in Sources */,

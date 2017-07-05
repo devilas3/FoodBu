@@ -16,6 +16,7 @@
 		441BE8B61F0CE90200CD3AA7 /* EventImageScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441BE8B51F0CE90200CD3AA7 /* EventImageScrollViewController.swift */; };
 		441BE8B91F0CF17E00CD3AA7 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 441BE8B71F0CF17E00CD3AA7 /* 3.jpg */; };
 		441BE8BA1F0CF17E00CD3AA7 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 441BE8B81F0CF17E00CD3AA7 /* 2.jpg */; };
+		441BE8BC1F0D09C900CD3AA7 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441BE8BB1F0D09C900CD3AA7 /* EventDetailViewController.swift */; };
 		4485EFD51F05362100B89587 /* PaymentContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485EFD41F05362100B89587 /* PaymentContainerViewController.swift */; };
 		4485EFD71F05364E00B89587 /* PaymentHostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485EFD61F05364E00B89587 /* PaymentHostViewController.swift */; };
 		4485EFD91F05367500B89587 /* PaymentGuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485EFD81F05367500B89587 /* PaymentGuestViewController.swift */; };
@@ -56,6 +57,7 @@
 		441BE8B51F0CE90200CD3AA7 /* EventImageScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventImageScrollViewController.swift; sourceTree = "<group>"; };
 		441BE8B71F0CF17E00CD3AA7 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		441BE8B81F0CF17E00CD3AA7 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		441BE8BB1F0D09C900CD3AA7 /* EventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
 		4485EFD41F05362100B89587 /* PaymentContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentContainerViewController.swift; sourceTree = "<group>"; };
 		4485EFD61F05364E00B89587 /* PaymentHostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentHostViewController.swift; sourceTree = "<group>"; };
 		4485EFD81F05367500B89587 /* PaymentGuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentGuestViewController.swift; sourceTree = "<group>"; };
@@ -265,6 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				44F1801E1F03BF6F00B474F9 /* EventsViewController.swift */,
+				441BE8BB1F0D09C900CD3AA7 /* EventDetailViewController.swift */,
 				441BE8B51F0CE90200CD3AA7 /* EventImageScrollViewController.swift */,
 			);
 			path = EventsVC;
@@ -516,6 +519,7 @@
 				4485EFDD1F0536FD00B89587 /* PaymentGuestTableViewCell.swift in Sources */,
 				44F180141F03B7C100B474F9 /* SWRevealViewController.m in Sources */,
 				4485EFD71F05364E00B89587 /* PaymentHostViewController.swift in Sources */,
+				441BE8BC1F0D09C900CD3AA7 /* EventDetailViewController.swift in Sources */,
 				44F1801A1F03BBEE00B474F9 /* MenuViewController.swift in Sources */,
 				44FA0A921F010BC90071B324 /* Products.swift in Sources */,
 				44FA0A941F010BDA0071B324 /* RequestManager.swift in Sources */,

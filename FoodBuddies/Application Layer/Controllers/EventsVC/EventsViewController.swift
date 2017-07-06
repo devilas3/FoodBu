@@ -96,6 +96,12 @@ class EventsViewController: BaseVC,UITableViewDataSource,UITableViewDelegate {
     }
     
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("indexPath:\(indexPath.row)")
+        let dtVC = self.storyboard?.instantiateViewController(withIdentifier: "idEventDetailViewController") as! EventDetailViewController
+        self.navigationController?.pushViewController(dtVC, animated: true)
+    }
+    
     
 
 //TODO: - UIButton Action

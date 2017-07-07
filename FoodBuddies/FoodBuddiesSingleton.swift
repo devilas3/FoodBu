@@ -19,6 +19,6 @@ final class FoodBuddiesSingleton {
     //MARK: Local Variable
    
     var htmlValue : Int = Int()    // 1: About us, 2: terms, 3: Privacy policy
-    
+    var childValue : Int = Int()   //0: Event info, 1: Event- About food, 2: event availability, 3: event venu, 4: event booked guest
     
 }

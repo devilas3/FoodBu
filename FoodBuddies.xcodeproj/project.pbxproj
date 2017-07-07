@@ -18,6 +18,10 @@
 		441BE8BA1F0CF17E00CD3AA7 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 441BE8B81F0CF17E00CD3AA7 /* 2.jpg */; };
 		441BE8BC1F0D09C900CD3AA7 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441BE8BB1F0D09C900CD3AA7 /* EventDetailViewController.swift */; };
 		443567E91F0E31EC0058737F /* EventInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443567E81F0E31EC0058737F /* EventInfoViewController.swift */; };
+		444125D71F0F626D00E8E575 /* EventAboutFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444125D61F0F626D00E8E575 /* EventAboutFoodViewController.swift */; };
+		444125D91F0F62A100E8E575 /* EventAvailabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444125D81F0F62A100E8E575 /* EventAvailabilityViewController.swift */; };
+		444125DB1F0F634600E8E575 /* EventVenueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444125DA1F0F634600E8E575 /* EventVenueViewController.swift */; };
+		444125DD1F0F636700E8E575 /* EventBookedGuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444125DC1F0F636700E8E575 /* EventBookedGuestViewController.swift */; };
 		4485EFD51F05362100B89587 /* PaymentContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485EFD41F05362100B89587 /* PaymentContainerViewController.swift */; };
 		4485EFD71F05364E00B89587 /* PaymentHostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485EFD61F05364E00B89587 /* PaymentHostViewController.swift */; };
 		4485EFD91F05367500B89587 /* PaymentGuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485EFD81F05367500B89587 /* PaymentGuestViewController.swift */; };
@@ -60,6 +64,10 @@
 		441BE8B81F0CF17E00CD3AA7 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		441BE8BB1F0D09C900CD3AA7 /* EventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
 		443567E81F0E31EC0058737F /* EventInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventInfoViewController.swift; sourceTree = "<group>"; };
+		444125D61F0F626D00E8E575 /* EventAboutFoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventAboutFoodViewController.swift; sourceTree = "<group>"; };
+		444125D81F0F62A100E8E575 /* EventAvailabilityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventAvailabilityViewController.swift; sourceTree = "<group>"; };
+		444125DA1F0F634600E8E575 /* EventVenueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventVenueViewController.swift; sourceTree = "<group>"; };
+		444125DC1F0F636700E8E575 /* EventBookedGuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventBookedGuestViewController.swift; sourceTree = "<group>"; };
 		4485EFD41F05362100B89587 /* PaymentContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentContainerViewController.swift; sourceTree = "<group>"; };
 		4485EFD61F05364E00B89587 /* PaymentHostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentHostViewController.swift; sourceTree = "<group>"; };
 		4485EFD81F05367500B89587 /* PaymentGuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentGuestViewController.swift; sourceTree = "<group>"; };
@@ -272,6 +280,10 @@
 				441BE8BB1F0D09C900CD3AA7 /* EventDetailViewController.swift */,
 				441BE8B51F0CE90200CD3AA7 /* EventImageScrollViewController.swift */,
 				443567E81F0E31EC0058737F /* EventInfoViewController.swift */,
+				444125D61F0F626D00E8E575 /* EventAboutFoodViewController.swift */,
+				444125D81F0F62A100E8E575 /* EventAvailabilityViewController.swift */,
+				444125DA1F0F634600E8E575 /* EventVenueViewController.swift */,
+				444125DC1F0F636700E8E575 /* EventBookedGuestViewController.swift */,
 			);
 			path = EventsVC;
 			sourceTree = "<group>";
@@ -508,6 +520,7 @@
 				44FA0A8F1F010B9E0071B324 /* DataManager.swift in Sources */,
 				44F180181F03BBE100B474F9 /* MenuTableViewCell.swift in Sources */,
 				440884421F03885F0097151E /* NotificationListViewController.swift in Sources */,
+				444125DB1F0F634600E8E575 /* EventVenueViewController.swift in Sources */,
 				4485EFD91F05367500B89587 /* PaymentGuestViewController.swift in Sources */,
 				440884441F0388AD0097151E /* NotificationTableViewCell.swift in Sources */,
 				44F180231F03BF8C00B474F9 /* MyProfileViewController.swift in Sources */,
@@ -519,6 +532,7 @@
 				4485EFD51F05362100B89587 /* PaymentContainerViewController.swift in Sources */,
 				44FA0AA01F0140F30071B324 /* ContactUSViewController.swift in Sources */,
 				4408843D1F037EAE0097151E /* SignupFirstViewController.swift in Sources */,
+				444125D71F0F626D00E8E575 /* EventAboutFoodViewController.swift in Sources */,
 				441BE8B61F0CE90200CD3AA7 /* EventImageScrollViewController.swift in Sources */,
 				4485EFDD1F0536FD00B89587 /* PaymentGuestTableViewCell.swift in Sources */,
 				44F180141F03B7C100B474F9 /* SWRevealViewController.m in Sources */,
@@ -527,8 +541,10 @@
 				44F1801A1F03BBEE00B474F9 /* MenuViewController.swift in Sources */,
 				44FA0A921F010BC90071B324 /* Products.swift in Sources */,
 				44FA0A941F010BDA0071B324 /* RequestManager.swift in Sources */,
+				444125D91F0F62A100E8E575 /* EventAvailabilityViewController.swift in Sources */,
 				44A3B4401F00EA5E00EA22B8 /* AppDelegate.swift in Sources */,
 				4485EFDB1F0536E700B89587 /* PaymentHostTableViewCell.swift in Sources */,
+				444125DD1F0F636700E8E575 /* EventBookedGuestViewController.swift in Sources */,
 				44A3B45D1F00ED5D00EA22B8 /* BaseVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
